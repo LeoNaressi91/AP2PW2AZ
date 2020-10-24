@@ -1,0 +1,24 @@
+<?php
+	required_once 'login.php';
+	$u = new login;
+?>
+
+<!DOCTYPE HTML>
+<HTML lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Leonardo Naressi Lanes</title>
+		<link rel="stylesheet" type="text/css" href="Imagens/Style.css">
+	</head>
+	<body>
+	 <h1>Faça seu cadastro!
+		<form method="POST" action="cadastro.php"> 
+		 <input type="email" name="login" placeholder="Email" maxlength="30">
+		 <input type="senha" name="senha" placeholder="Senha" maxlength="30">
+		 <input type="senha" name="confirmarSenha" placeholder="Confirmar Senha" maxlength="30">
+		 <input type="submit" value="Cadastrar">
+		 <input type="reset" value="LIMPAR">
+		 </form>
+	 </h1> 
+	</body>
+</HTML>

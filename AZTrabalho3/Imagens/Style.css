@@ -1,0 +1,42 @@
+body{
+	background-image:url("fundo.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+
+input{
+	display: block;
+	height: 40px;
+	width: 300px;
+	margin: 20px;
+	border-radius: 28px;
+	border: 3px solid blue;
+	font-size: 18px;
+	padding: 8px 18px;
+	}
+	
+input[type=submit]{
+		background-color: green;
+		border: none;
+		cursor: pointer;
+	}
+	
+input[type=reset]{
+		background-color: red;
+		border: none;
+		cursor: pointer;
+	}
+
+h1{
+	color: #FF8C00;
+	width: 340px;
+	margin: 170px auto 0px auto;
+	text-align: center;
+	}
+a{
+	text-align: center;
+	display: block;
+	font-size: 25px;
+	}
+		
